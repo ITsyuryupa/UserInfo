@@ -1,4 +1,4 @@
-package model;
+package itsyuryupa.userinfo.model;
 
 public class Views {
     public interface UserSummary {}

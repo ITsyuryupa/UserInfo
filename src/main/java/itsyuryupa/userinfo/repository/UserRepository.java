@@ -1,6 +1,6 @@
-package repository;
+package itsyuryupa.userinfo.repository;
 
-import model.User;
+import itsyuryupa.userinfo.model.User;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 public interface UserRepository extends JpaRepository<User, Long> {

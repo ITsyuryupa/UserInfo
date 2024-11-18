@@ -1,15 +1,15 @@
-package controller;
+package itsyuryupa.userinfo.controller;
 
 import com.fasterxml.jackson.annotation.JsonView;
 import jakarta.validation.Valid;
-import model.User;
-import model.Views;
+import itsyuryupa.userinfo.model.User;
+import itsyuryupa.userinfo.model.Views;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.server.ResponseStatusException;
-import repository.UserRepository;
+import itsyuryupa.userinfo.repository.UserRepository;
 
 
 import java.util.List;

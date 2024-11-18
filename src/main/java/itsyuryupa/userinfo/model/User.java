@@ -1,4 +1,4 @@
-package model;
+package itsyuryupa.userinfo.model;
 
 import com.fasterxml.jackson.annotation.JsonView;
 import jakarta.persistence.*;
@@ -10,6 +10,7 @@ import java.util.List;
 
 @Entity
 @Data
+@Table(name = "users")
 public class User {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
